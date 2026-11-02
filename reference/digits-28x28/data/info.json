@@ -1,0 +1,10 @@
+{
+  "dataset": "mnist",
+  "size": 28,
+  "hint_rows": 8,
+  "train_images": 20000,
+  "test_prompts": 1000,
+  "practice_prompts": 5000,
+  "valid_prompts": 1000,
+  "seed": 0
+}

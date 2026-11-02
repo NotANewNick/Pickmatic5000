@@ -1,0 +1,8 @@
+range: 10-90% over 20 resamples, moved by their shift (see --help); features on NVIDIA GeForce RTX 2080 Ti
+diffusion_s1                       correct  88.0%  FID  128.8 ( 121.2- 135.5)  copy 2.00  steps    1.0
+diffusion_s10                      correct  98.5%  FID    6.3 (   4.9-   7.4)  copy 0.98  steps   10.0
+diffusion_s2                       correct  97.3%  FID   20.9 (  20.1-  24.0)  copy 0.98  steps    2.0
+diffusion_s20                      correct  98.1%  FID    5.2 (   3.9-   6.0)  copy 1.00  steps   20.0
+diffusion_s3                       correct  97.7%  FID   13.6 (  12.9-  15.2)  copy 0.96  steps    3.0
+diffusion_s4                       correct  98.1%  FID   10.7 (   9.9-  11.8)  copy 0.97  steps    4.0
+diffusion_s8                       correct  98.3%  FID    6.9 (   5.6-   8.1)  copy 0.97  steps    8.0

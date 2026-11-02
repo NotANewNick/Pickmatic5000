@@ -1,0 +1,13 @@
+{
+  "length": 197,
+  "tool": "ring",
+  "width": 384,
+  "layers": 8,
+  "heads": 6,
+  "parameters": 12307712,
+  "epochs": 20,
+  "steps": 3140,
+  "context": "drawn",
+  "init": "work/p2/runs/S",
+  "train_minutes": 21.646516593297324
+}

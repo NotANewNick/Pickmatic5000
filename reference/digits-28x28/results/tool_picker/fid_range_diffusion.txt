@@ -1,0 +1,7 @@
+range: 10-90% over 20 resamples, moved by their shift (see --help); features on Intel(R) Xeon(R) CPU E5-2667 v2 @ 3.30GHz
+Intel oneMKL WARNING: Support of Intel(R) Advanced Vector Extensions (Intel(R) AVX) enabled only processors has been deprecated. Intel oneAPI Math Kernel Library will use Intel(R) Streaming SIMD Extensions 4.2 (Intel(R) SSE4.2) instructions instead.
+maskgit_s8                         correct  98.5%  FID    7.0 (   6.2-   8.0)  copy 0.98  steps    8.0
+diffusion_s2                       correct  97.5%  FID   20.9 (  19.1-  22.2)  copy 0.98  steps    2.0
+diffusion_s4                       correct  98.1%  FID   11.8 (  10.5-  13.3)  copy 0.99  steps    4.0
+diffusion_s8                       correct  98.9%  FID    8.2 (   7.0-   9.8)  copy 1.00  steps    8.0
+diffusion_s20                      correct  99.0%  FID    6.0 (   5.3-   7.7)  copy 1.02  steps   20.0

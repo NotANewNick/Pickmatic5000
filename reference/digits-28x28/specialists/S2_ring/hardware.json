@@ -1,0 +1,10 @@
+{
+  "torch": "2.8.0+cu128",
+  "cuda_runtime": "12.8",
+  "hip_runtime": null,
+  "python": "3.12.3",
+  "backend": "cuda",
+  "device": "NVIDIA GeForce RTX 2080 Ti",
+  "device_memory_gb": 10.6,
+  "arch": "sm_75"
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "maskgit",
+  "model": "work/p2/runs/M_maskgit",
+  "ordering": "maskgit",
+  "hint_rows": 8,
+  "body_tokens": 140,
+  "dataset": "mnist",
+  "size": 28,
+  "decode": {
+    "steps": 4,
+    "temperature": 4.5,
+    "sampler": "maskgit"
+  },
+  "guess": [],
+  "fill_zero": false,
+  "compile": false,
+  "count": 1000,
+  "plan": "none",
+  "plan_source": null,
+  "parameters": 12307712,
+  "passes_per_step": 1,
+  "hardware": {
+    "torch": "2.8.0+cu128",
+    "cuda_runtime": "12.8",
+    "hip_runtime": null,
+    "python": "3.12.3",
+    "backend": "cuda",
+    "device": "NVIDIA GeForce RTX 2080 Ti",
+    "device_memory_gb": 10.6,
+    "arch": "sm_75"
+  },
+  "batched_seconds_note": "wall_seconds are per image in batches of 250, not batch 1"
+}

@@ -1,0 +1,14 @@
+# Recreated by run.sh / experiment/setup_env.sh (platform-specific, several GB)
+.venv/
+.tools/
+__pycache__/
+*.egg-info/
+# Your own runs (run.sh writes everything here)
+# (no trailing slash, so a "work" symlink in a worktree is ignored too)
+/work
+# Download records written by ./run.sh models (hf download --local-dir .)
+/.cache/
+# Optimizer state (large; only needed to resume training)
+**/training_state/
+# Model weights come from Hugging Face (./run.sh models); keep them out of this repo
+reference/**/*.safetensors

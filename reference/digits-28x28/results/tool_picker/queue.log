@@ -1,0 +1,60 @@
+[00:11:16] maskgit halton 1 steps on valid
+[00:11:28] maskgit halton 2 steps on valid
+[00:11:40] FAILED maskgit halton 2
+[00:11:40] maskgit halton 3 steps on valid
+[00:11:51] FAILED maskgit halton 3
+[00:11:51] maskgit halton 4 steps on valid
+[00:12:03] FAILED maskgit halton 4
+[00:12:03] maskgit halton 6 steps on valid
+[00:12:14] FAILED maskgit halton 6
+[00:12:14] maskgit halton 8 steps on valid
+[00:12:26] FAILED maskgit halton 8
+[00:12:26] tools: ring lines holes circles dots 
+check: S FID 14.9, S2 FID 13.8
+[00:13:04] pickers use S2
+[00:13:04] picker step on S2 (60 min)
+[01:17:00] picker plan on S2 (60 min)
+[02:21:20] round 3: ring on the pickers' states
+[02:51:38] round 3: lines on the pickers' states
+[03:21:55] round 3: holes on the pickers' states
+[03:52:11] round 3: circles on the pickers' states
+[04:22:28] round 3: dots on the pickers' states
+check: S2 FID 13.8, S3 FID 12.7
+[04:53:24] continued pickers use S3
+[04:53:24] picker step continued on S3 (30 min)
+[04:53:35] FAILED step3
+[04:53:35] picker plan continued on S3 (30 min)
+[04:53:47] FAILED plan3
+[04:53:47] valid draws
+[04:56:29] FAILED draw step3 0
+[04:56:32] FAILED draw step3 0.05
+[04:56:36] FAILED draw step3 0.1
+[04:56:39] FAILED draw step3 0.15
+[04:56:43] FAILED draw step3 0.2
+[04:56:46] FAILED draw plan3 0
+[04:56:50] FAILED draw plan3 0.05
+[04:56:54] FAILED draw plan3 0.1
+[04:56:58] FAILED draw plan3 0.15
+[04:57:02] FAILED draw plan3 0.2
+range: 10-90% over 20 resamples, moved by their shift (see --help); features on NVIDIA GeForce RTX 2080 Ti
+check_S                            correct  95.9%  FID   14.9 (  13.3-  15.8)  copy 1.22  steps    3.0
+check_S2                           correct  96.0%  FID   13.8 (  12.4-  14.7)  copy 1.21  steps    3.0
+check_S3                           correct  96.5%  FID   12.7 (  11.5-  13.9)  copy 1.21  steps    3.0
+maskgit_halton_s1                  correct  98.0%  FID   39.0 (  37.5-  41.2)  copy 1.27  steps    1.0
+maskgit_s1                         correct  98.0%  FID   39.0 (  37.4-  41.1)  copy 1.27  steps    1.0
+maskgit_s2                         correct  98.8%  FID   10.7 (   9.5-  11.9)  copy 1.08  steps    2.0
+maskgit_s3                         correct  98.6%  FID    8.2 (   6.7-   9.3)  copy 1.03  steps    3.0
+maskgit_s4                         correct  98.6%  FID    7.5 (   6.1-   9.2)  copy 1.00  steps    4.0
+maskgit_s6                         correct  99.1%  FID    6.7 (   5.4-   7.7)  copy 0.99  steps    6.0
+maskgit_s8                         correct  98.5%  FID    7.0 (   6.2-   8.0)  copy 0.98  steps    8.0
+plan_u0                            correct  97.8%  FID    5.4 (   4.8-   6.0)  copy 1.11  steps    8.3
+plan_u0.05                         correct  96.9%  FID   10.8 (   9.4-  12.0)  copy 1.18  steps    3.9
+plan_u0.1                          correct  97.3%  FID   18.8 (  17.3-  20.6)  copy 1.25  steps    2.2
+plan_u0.15                         correct  97.3%  FID   28.1 (  26.8-  30.8)  copy 1.29  steps    1.7
+plan_u0.2                          correct  97.5%  FID   36.3 (  35.0-  39.1)  copy 1.32  steps    1.5
+step_u0                            correct  97.9%  FID    5.6 (   4.9-   6.2)  copy 1.10  steps    8.1
+step_u0.05                         correct  97.6%  FID   11.0 (  10.1-  12.4)  copy 1.20  steps    4.0
+step_u0.1                          correct  97.1%  FID   18.1 (  15.9-  19.5)  copy 1.25  steps    2.3
+step_u0.15                         correct  96.5%  FID   27.0 (  24.8-  29.4)  copy 1.29  steps    1.8
+step_u0.2                          correct  97.2%  FID   37.0 (  34.9-  39.1)  copy 1.33  steps    1.5
+[04:58:28] maskgit, 588 epochs (as long as all specialists together)

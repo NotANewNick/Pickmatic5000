@@ -1,0 +1,13 @@
+{
+  "length": 197,
+  "tool": "circles",
+  "width": 384,
+  "layers": 8,
+  "heads": 6,
+  "parameters": 12307712,
+  "epochs": 20,
+  "steps": 3140,
+  "context": "drawn",
+  "init": "work/p2/runs/C1",
+  "train_minutes": 22.35078957080841
+}

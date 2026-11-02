@@ -1,0 +1,22 @@
+range: 10-90% over 20 resamples, moved by their shift (see --help); features on NVIDIA GeForce RTX 2080 Ti
+Intel oneMKL WARNING: Support of Intel(R) Advanced Vector Extensions (Intel(R) AVX) enabled only processors has been deprecated. Intel oneAPI Math Kernel Library will use Intel(R) Streaming SIMD Extensions 4.2 (Intel(R) SSE4.2) instructions instead.
+check_S                            correct  95.9%  FID   14.9 (  13.3-  15.8)  copy 1.22  steps    3.0
+check_S2                           correct  96.0%  FID   13.8 (  12.4-  14.7)  copy 1.21  steps    3.0
+check_S3                           correct  96.5%  FID   12.7 (  11.5-  13.9)  copy 1.21  steps    3.0
+maskgit_halton_s1                  correct  98.0%  FID   39.0 (  37.5-  41.2)  copy 1.27  steps    1.0
+maskgit_s1                         correct  98.0%  FID   39.0 (  37.4-  41.1)  copy 1.27  steps    1.0
+maskgit_s2                         correct  98.8%  FID   10.7 (   9.5-  11.9)  copy 1.08  steps    2.0
+maskgit_s3                         correct  98.6%  FID    8.2 (   6.7-   9.3)  copy 1.03  steps    3.0
+maskgit_s4                         correct  98.6%  FID    7.5 (   6.1-   9.2)  copy 1.00  steps    4.0
+maskgit_s6                         correct  99.1%  FID    6.7 (   5.4-   7.7)  copy 0.99  steps    6.0
+maskgit_s8                         correct  98.5%  FID    7.0 (   6.2-   8.0)  copy 0.98  steps    8.0
+plan_u0                            correct  97.8%  FID    5.4 (   4.8-   6.0)  copy 1.11  steps    8.3
+plan_u0.05                         correct  96.9%  FID   10.8 (   9.4-  12.0)  copy 1.18  steps    3.9
+plan_u0.1                          correct  97.3%  FID   18.8 (  17.3-  20.6)  copy 1.25  steps    2.2
+plan_u0.15                         correct  97.3%  FID   28.1 (  26.8-  30.8)  copy 1.29  steps    1.7
+plan_u0.2                          correct  97.5%  FID   36.3 (  35.0-  39.1)  copy 1.32  steps    1.5
+step_u0                            correct  97.9%  FID    5.6 (   4.9-   6.2)  copy 1.10  steps    8.1
+step_u0.05                         correct  97.6%  FID   11.0 (  10.1-  12.4)  copy 1.20  steps    4.0
+step_u0.1                          correct  97.1%  FID   18.1 (  15.9-  19.5)  copy 1.25  steps    2.3
+step_u0.15                         correct  96.5%  FID   27.0 (  24.8-  29.4)  copy 1.29  steps    1.8
+step_u0.2                          correct  97.2%  FID   37.0 (  34.9-  39.1)  copy 1.33  steps    1.5

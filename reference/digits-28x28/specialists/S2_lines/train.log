@@ -1,0 +1,23 @@
+Intel oneMKL WARNING: Support of Intel(R) Advanced Vector Extensions (Intel(R) AVX) enabled only processors has been deprecated. Intel oneAPI Math Kernel Library will use Intel(R) Streaming SIMD Extensions 4.2 (Intel(R) SSE4.2) instructions instead.
+.venv/lib/python3.12/site-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+{"epoch": 0, "step": 157, "loss": 0.6751787066459656, "minutes": 1.1}
+{"epoch": 1, "step": 314, "loss": 0.6347718238830566, "minutes": 2.2}
+{"epoch": 2, "step": 471, "loss": 0.6935098767280579, "minutes": 3.2}
+{"epoch": 3, "step": 628, "loss": 0.5776090621948242, "minutes": 4.3}
+{"epoch": 4, "step": 785, "loss": 0.6458888053894043, "minutes": 5.5}
+{"epoch": 5, "step": 942, "loss": 0.6546355485916138, "minutes": 6.6}
+{"epoch": 6, "step": 1099, "loss": 0.7515052556991577, "minutes": 7.7}
+{"epoch": 7, "step": 1256, "loss": 0.6848877668380737, "minutes": 8.8}
+{"epoch": 8, "step": 1413, "loss": 0.6633039116859436, "minutes": 9.9}
+{"epoch": 9, "step": 1570, "loss": 0.6464132070541382, "minutes": 10.9}
+{"epoch": 10, "step": 1727, "loss": 0.6519701480865479, "minutes": 12.0}
+{"epoch": 11, "step": 1884, "loss": 0.6011461615562439, "minutes": 13.1}
+{"epoch": 12, "step": 2041, "loss": 0.6208653450012207, "minutes": 14.2}
+{"epoch": 13, "step": 2198, "loss": 0.6920247077941895, "minutes": 15.3}
+{"epoch": 14, "step": 2355, "loss": 0.5766656398773193, "minutes": 16.4}
+{"epoch": 15, "step": 2512, "loss": 0.6051501035690308, "minutes": 17.5}
+{"epoch": 16, "step": 2669, "loss": 0.7668355107307434, "minutes": 18.6}
+{"epoch": 17, "step": 2826, "loss": 0.6500550508499146, "minutes": 19.7}
+{"epoch": 18, "step": 2983, "loss": 0.7727820873260498, "minutes": 20.7}
+{"epoch": 19, "step": 3140, "loss": 0.6068612337112427, "minutes": 21.8}
